@@ -10,12 +10,20 @@ This book will be your definitive guide to batch and stream data processing with
 ## Instructions and Navigation
 All of the code is organized into folders.Each folder starts with a number followed by the application name.
 The commands and instructions will look like the following:
-  <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<flink.version>1.1.4</flink.version>
-		<slf4j.version>1.7.7</slf4j.version>
-		<log4j.version>1.2.17</log4j.version>
-	</properties
+     public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Alert other = (Alert) obj;
+		if (message == null) {
+			if (other.message != null)
+				return false;
+		} else if (!message.equals(other.message))
+			return false;
+		return true;
     
 ## Related products:
 * [Apache Spark Machine Learning Blueprints](https://www.packtpub.com/big-data-and-business-intelligence/apache-spark-machine-learning-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781785880391)
