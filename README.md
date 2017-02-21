@@ -26,7 +26,11 @@ The commands and instructions will look like the following:
 		} else if (!message.equals(other.message))
 			return false;
 		return true;
-    
+## Note:
+Chapter 01,08, and chapter 09 does not contain code.
+
+
+
 ## Related products:
 * [Apache Spark Machine Learning Blueprints](https://www.packtpub.com/big-data-and-business-intelligence/apache-spark-machine-learning-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781785880391)
 * [Instant Apache Stanbol](https://www.packtpub.com/application-development/instant-apache-stanbol?utm_source=github&utm_medium=repository&utm_campaign=9781783281237)
