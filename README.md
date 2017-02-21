@@ -10,6 +10,8 @@ This book will be your definitive guide to batch and stream data processing with
 ## Instructions and Navigation
 All of the code is organized into folders.Each folder starts with a number followed by the application name.
 The commands and instructions will look like the following:
+     
+     
      public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
